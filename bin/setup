@@ -34,3 +34,5 @@ for dir in ${dirs[@]}; do
 done
 
 luarocks_config "$OPENSHIFT_DEPENDENCIES_DIR/luarocks-config.lua" "$OPENSHIFT_DEPENDENCIES_DIR"
+
+export PATH=$OPENRESTY_USR_DIR/bin:$PATH
