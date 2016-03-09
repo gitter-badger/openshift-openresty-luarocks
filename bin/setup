@@ -30,3 +30,5 @@ dirs=( "logs" "run" )
 for dir in ${dirs[@]}; do
     mkdir -p "${OPENSHIFT_OPENRESTY_DIR}/${dir}"
 done
+
+luarocks_config "$OPENSHIFT_DEPENDENCIES_DIR/luarocks-config.lua" "$OPENSHIFT_DEPENDENCIES_DIR"
