@@ -12,7 +12,7 @@ OPENRESTY_USR_DIR=$OPENSHIFT_OPENRESTY_DIR/usr/${version}
 # The user's repo path for their application
 REPO_LUA_PATH="$OPENSHIFT_REPO_DIR/?.lua;$OPENSHIFT_REPO_DIR/init/?.lua"
 # OpenResty's paths
-OPENRESTY_LUA_PATH="$LAPIS_USR_DIR/share/lua/5.1/?.lua;$OPENRESTY_USR_DIR/lualib/?.lua"
+OPENRESTY_LUA_PATH="$OPENRESTY_USR_DIR/share/lua/5.1/?.lua;$OPENRESTY_USR_DIR/lualib/?.lua"
 # LuaRocks' paths
 LUAROCKS_LUA_PATH="$OPENSHIFT_DEPENDENCIES_DIR/share/lua/5.1/?.lua;$OPENSHIFT_DEPENDENCIES_DIR/share/lua/5.1/?/init.lua"
 
